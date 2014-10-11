@@ -74,14 +74,10 @@ public class SampleServiceImpl implements SampleService {
 	
 	public User getUser(Long userId) {	
 		return userDao.findOne(userId);
-//		User user = userDao.findOne(id);
-//		return user;
 	}
 	
 	public Team getTeam(Long teamId) {
 		return teamDao.findOne(teamId);
-//		Team team = teamDao.findOne(teamId);
-//		return team;
 	}
 	
 }
